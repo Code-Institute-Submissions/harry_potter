@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+/*--------------------------------------Colors*/
+
+.bg-color-name-subname {
+    background-color: #F2ECEC;
+    
+}
+
+/*--------------------------------------Header*/
+
+
+.name {
+    font-family: "Cinzel", serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+}
+
+.subname {
+    font-family: "Cinzel", serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+}
+
+
+
+.box {
+    height: 180px;
+    width: 100%;
+}
+
+.red {
+    background-color: #B41B26;
+}
+
+.blue {
+    background-color: #13b4ff;
+}
+
+.hogwarts {
+    background: url("../images/harry-potter-1640525_640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} 
+
+.box {
+    height: 180px;
+    width: 100%;
+}
+
+.yellow {
+    background-color: #E0CB43;
+}
+
+.green {
+    background-color: #1F6E2C;
+}
+
