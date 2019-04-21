@@ -1,43 +1,119 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
-/*--------------------------------------Colors*/
 
-.bg-color-name-subname {
-    background-color: #F2ECEC;
+/*--------------------------------------Nav Bar*/
+
+.ui-menu-color-links {
+ background-color: #B41B26;
+}
+
+.ui-menu-color-places {
+ background-color: #0000CD;
+}
+
+.ui-menu-color-events {
+ background-color: #E0CB43;
+}
+
+.ui-menu-color-shop {
+ background-color: #1F6E2C;
+}
+
+.navitem {
+    height: 60px;
+    font-family: Roboto, sans-serif;
+}
+
+.navitem span {
+    color: #fafafa;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
     
 }
 
-/*--------------------------------------Header*/
+.navitem {
+    height: 60px;
+    padding-top: 10px;
+    
+}
 
+.navitem a i {
+    color: #fafafa;
+    text-align: center;
+    
+}
 
-.name {
-    font-family: "Cinzel", serif;
+/*
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+#nav menuitem {
+    margin: 0;
+}
+
+#nav menuitem {
+    padding: 0;
+}
+
+#nav list-inline-item {
+    margin: 0;
+}
+
+#nav list-inline-item {
+    padding: 0;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-    text-align: center;
-}
-
-h1 {
-    font-family: "Cinzel", serif;
-    text-align: center;
-}
-
-.subname {
-    font-family: "Cinzel", serif;
-    font-weight: 200;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-h2 {
-    font-family: "Cinzel", serif;
-    text-align: center;
 }
 
 
+.inline-block {
 
-.box {
-    height: 180px;
+.list-inline-item:not(:last-child) {
+   margin: 0; 
+}
+
+.menucontainer {
+    font-size: 0;
+}*/
+
+/*.box {
+    min-height: 190px;
     width: 100%;
 }
 
@@ -46,30 +122,91 @@ h2 {
 }
 
 .blue {
-    background-color: #13b4ff;
+    background-color: #0000CD;
 }
 
-.hogwarts {
-    background: url("../images/harry-potter-1640525_640.jpg");
+*/
+
+/*--------------------------------------Header*/
+
+h1 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #fafafa;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size:24px;
+    font-weight: 300;
+    background-color: #fafafa;
+}
+
+.hogwarts { 
+  background-image: url("images/harry-potter-1640525_640.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: 100%;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+/*.hogwarts {
+    background: url("../assets/images/harry-potter-1640525_640.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 379px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 } 
 
-.box {
-    height: 180px;
+/*.box {
+    min-height: 189px;
     width: 100%;
+}
+
+.green {
+    background-color: #1F6E2C;
 }
 
 .yellow {
     background-color: #E0CB43;
 }
 
-.green {
-    background-color: #1F6E2C;
+/*--------------------------------------Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: 0.35s ease-in-out;
+    -moz-transition: 0.35s ease-in-out;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
 }
 
