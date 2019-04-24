@@ -20,129 +20,89 @@
 }
 
 .navitem {
-    height: 60px;
+    height: 90px;
     font-family: Roboto, sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
+
+/* row structure from stackoverflow.com */
 
 .navitem span {
     color: #fafafa;
     font-family: Roboto, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: 400;
     
 }
 
-.navitem {
-    height: 60px;
-    padding-top: 10px;
-    
+.navitem a {
+    text-decoration: none;
 }
 
 .navitem a i {
     color: #fafafa;
+    display: block;
     text-align: center;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 90px;
+    width: 100%;
+    text-decoration: none;
+}
+
+/*.navitem:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 90px;
+}*/
+
+
+
+/*--------------------------------------Header*/
+
+.all-things {
+    height: 95px;
+}
+ /* from css-tricks.com */
+ 
+.homepage-link a {
+    text-decoration: none;
+    font-color: black;
+    color: black;
     
 }
 
-/*
-
-#nav {
-    margin: 0;
+.homepage-link a:hover {
+    color: black;
 }
-
-#nav li {
-    padding: 0;
-}
-
-#nav menuitem {
-    margin: 0;
-}
-
-#nav menuitem {
-    padding: 0;
-}
-
-#nav list-inline-item {
-    margin: 0;
-}
-
-#nav list-inline-item {
-    padding: 0;
-}
-
-.menuitem {
-    height: 60px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
-}
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-
-.inline-block {
-
-.list-inline-item:not(:last-child) {
-   margin: 0; 
-}
-
-.menucontainer {
-    font-size: 0;
-}*/
-
-/*.box {
-    min-height: 190px;
-    width: 100%;
-}
-
-.red {
-    background-color: #B41B26;
-}
-
-.blue {
-    background-color: #0000CD;
-}
-
-*/
-
-/*--------------------------------------Header*/
 
 h1 {
     font-family: "Cinzel", serif;
     text-align: center;
-    font-size: 28px;
+    font-size: 42px;
     font-weight: 700;
     background-color: #fafafa;
+    text-decoration: none;
+    font-color: #000000;
 }
 
 h2 {
     font-family: "Cinzel", serif;
     text-align: center;
-    font-size:24px;
+    font-size: 36px;
     font-weight: 300;
     background-color: #fafafa;
+    text-decoration: none;
+    font-color: #000000;
+    padding-bottom: 10px;
 }
 
 .hogwarts { 
@@ -154,30 +114,47 @@ h2 {
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 10px;
 }
 
-/*.hogwarts {
-    background: url("../assets/images/harry-potter-1640525_640.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 379px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-} 
-
-/*.box {
-    min-height: 189px;
-    width: 100%;
+.movie_pic { 
+ background-image: url("images/movie_pic2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: 100%;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 10px;
 }
 
-.green {
-    background-color: #1F6E2C;
+.harry-ron-hermione { 
+  background-image: url("images/harry_ron_hermione.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: 100%;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 10px;
 }
 
-.yellow {
-    background-color: #E0CB43;
+
+/* from W3schools.com */
+
+.video {
+    margin: auto;
+    text-align: center;
+    height: 100% !important;
+}
+
+.site-links {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 /*--------------------------------------Footer*/
@@ -189,9 +166,23 @@ footer {
     margin: 0;
 }
 
+.footer-text {
+    padding-top: 10px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.h5 {
+    padding-top: 10px;
+}
+
 .social-links {
-    padding-bottom: 15px;
-    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
 }
 
 .social-links li a i {
@@ -199,9 +190,12 @@ footer {
     height: 32px;
     padding: 12px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
     text-align: center;
+    vertical-align: center;
+    display: table-cell;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 32px;
     color: #fafafa;
     background: #8f8f8f;
     transition: 0.35s ease-in-out;
@@ -210,3 +204,15 @@ footer {
     -o-transition: 0.35s ease-in-out;
 }
 
+.social-links li a i:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.social-links i {
+    text-decoration: none;
+}
+
+.list-inline-item i {
+    text-decoration: none;
+}
