@@ -1,18 +1,14 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+  README
+  
+  For this Harry Potter fan site I chose the four house colors from the Harry Potter books
+  for the navigation bar in the header and a font that seemed in keeping with the style of the books.
+  
+  For the structure I mostly used Bootstrap to create rows and columns in mostly a three-columns
+  layout.  
+  
+  The biggest problems I encountered were with getting the images on the site and formatting them.
+  
+  To test the site I checked all the links and the video and audio on mobile, tablet, & laptop.
+  
+  

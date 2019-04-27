@@ -69,7 +69,7 @@
 /*--------------------------------------Header*/
 
 .all-things {
-    height: 95px;
+    min-height: 95px;
 }
  /* from css-tricks.com */
  
@@ -105,6 +105,8 @@ h2 {
     padding-bottom: 10px;
 }
 
+/*--------------------------------Homepage*/
+
 .hogwarts { 
   background-image: url("images/harry-potter-1640525_640.jpg");
   background-position: center;
@@ -117,57 +119,354 @@ h2 {
   margin-bottom: 10px;
 }
 
-.movie_pic { 
- background-image: url("images/movie_pic2.jpg");
-  background-position: center;
+.people {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.harry_pic { 
+ background-image: url("images/harry_pic.jpg");
   background-repeat: no-repeat;
-  height:100vh;
-  background-size: 100%;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  height: 230px;
+  width: 175px;
   margin-bottom: 10px;
+  display: inline;
+  object-fit: contain;
+  text-align: center;
 }
 
-.harry-ron-hermione { 
-  background-image: url("images/harry_ron_hermione.jpg");
-  background-position: center;
+.hermione_pic { 
+  background-image: url("images/hermione_pic.jpg");
   background-repeat: no-repeat;
-  height:100vh;
-  background-size: 100%;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  height: 230px;
+  width: 175px;
   margin-bottom: 10px;
+  display: inline;
+  object-fit: contain;
+  text-align: center;
 }
 
+.ron_pic { 
+  background-image: url("images/ron_pic.jpg");
+  background-repeat: no-repeat;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  min-height: 230px;
+  min-width: 175px;
+  margin-bottom: 10px;
+  display: inline;
+  object-fit: contain;
+  text-align: center;
+}
 
-/* from W3schools.com */
+.people-pics {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    vertical-align: text-bottom;
+    padding-top: 230px;
+    text-align: left;
+}
+
+/* ----------------------------------------------Links page */
 
 .video {
     margin: auto;
     text-align: center;
     height: 100% !important;
+    padding-bottom: 50px;
+}
+
+.pottermore {
+    background-image: url("images/pottermore.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 131px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.youtube-link {
+    background-image: url("images/youtube.png");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.bloomsbury {
+    background-image: url("images/bloomsbury.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.hp-wiki {
+    background-image: url("images/Harry-potter-wiki-welcome.png");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 120px;
+    padding-left: 0px;
+}
+
+.mugglenet {
+    background-image: url("images/mugglenet.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
+}
+
+.lexicon {
+    background-image: url("images/lexicon.png");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
 }
 
 .site-links {
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 10px;
     padding-bottom: 10px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
 }
 
-/*--------------------------------------Footer*/
+/* from W3schools.com */
+
+.links-desc {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
+    padding-left: none;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.text-links {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
+}
+
+.links-page {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
+}
+
+.site-links {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
+}
+
+/*------------------------------------Places Page*/
+
+.movie_pic { 
+  background-image: url("images/movie_pic2.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  min-height: 188px;
+  min-width: 250px;
+  margin-left: 33%;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.warnerbros {
+    background-image: url("images/warnerbros.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 180px;
+    padding-left: 0px;
+}
+
+.orlando {
+    background-image: url("images/orlando.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+
+.osaka {
+    background-image: url("images/osaka.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+
+/*------------------------------------Events Page*/
+
+.audio {
+    margin: auto;
+    text-align: center;
+    height: 100% !important;
+}
+
+.events-links {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.inconcert {
+    background-image: url("images/inconcert.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 180px;
+    padding-left: 0px;
+}
+
+.leakycon {
+    background-image: url("images/leakycon.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+
+.wizardcon {
+    background-image: url("images/wizardcon.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+
+/*--------------------------------------Shop*/
+
+.kingscross {
+    background-image: url("images/kingscross.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 180px;
+    padding-left: 0px;
+}
+
+.amazon {
+    background-image: url("images/amazon.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+
+.ebay {
+    background-image: url("images/ebay.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 47px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 190px;
+    padding-left: 0px;
+}
+/*--------------------------------------Text*/
+
+.links-text {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400; 
+    text-decoration: none;
+}
+
+/*--------------------------------------Footer with help from W3 schools*/
+
+body {
+padding-bottom: 120px; /* height of the footer from Stack Overflow */
+}
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
 }
 
 .footer-text {
     padding-top: 10px;
+    text-align: left;
 }
 
 .email {
@@ -177,6 +476,11 @@ footer {
 
 .h5 {
     padding-top: 10px;
+}
+
+.general-sub {
+    padding-top: 10px;
+    text-align: left;
 }
 
 .social-links {
