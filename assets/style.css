@@ -68,20 +68,20 @@
 
 /*--------------------------------------Header*/
 
-.all-things {
+/*.all-things {
     min-height: 95px;
-}
+}*/
  /* from css-tricks.com */
  
 .homepage-link a {
     text-decoration: none;
-    font-color: black;
-    color: black;
+    font-color: #000000;
+    color: #000000;
     
 }
 
 .homepage-link a:hover {
-    color: black;
+    color: #000000;
 }
 
 h1 {
@@ -89,9 +89,8 @@ h1 {
     text-align: center;
     font-size: 42px;
     font-weight: 700;
-    background-color: #fafafa;
     text-decoration: none;
-    font-color: #000000;
+    color: #000000;;
 }
 
 h2 {
@@ -99,10 +98,9 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 300;
-    background-color: #fafafa;
     text-decoration: none;
-    font-color: #000000;
-    padding-bottom: 10px;
+    color: #000000;
+    /*padding-bottom: 10px;*/
 }
 
 /*--------------------------------Homepage*/
@@ -378,7 +376,7 @@ h2 {
 }
 
 .leakycon {
-    background-image: url("images/leakycon.jpg");
+    background-image: url("images/leakycon.png");
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
@@ -406,9 +404,8 @@ h2 {
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
-    display: inline;
     object-fit: contain;
-    padding-top: 180px;
+    padding-top: 190px;
     padding-left: 0px;
 }
 
@@ -417,7 +414,6 @@ h2 {
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
-    display: inline;
     object-fit: contain;
     padding-top: 190px;
     padding-left: 0px;
@@ -428,7 +424,6 @@ h2 {
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
-    display: inline;
     object-fit: contain;
     padding-top: 190px;
     padding-left: 0px;
@@ -451,7 +446,7 @@ h2 {
 /*--------------------------------------Footer with help from W3 schools*/
 
 body {
-padding-bottom: 120px; /* height of the footer from Stack Overflow */
+padding-bottom: 120px; /* height of the footer from Stack Overflow to be able to scroll down site*/
 }
 
 footer {
@@ -471,7 +466,7 @@ footer {
 
 .email {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .h5 {
