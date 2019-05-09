@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Cinzel:100,200,300,400,500,600,700|Merriweather:100,200,300,400,500,600,700');
 
 
 /*--------------------------------------Nav Bar*/
 
-.ui-menu-color-links {
+.ui-menu-color-home {
  background-color: #B41B26;
 }
 
-.ui-menu-color-places {
+.ui-menu-color-links {
  background-color: #0000CD;
 }
 
-.ui-menu-color-events {
+.ui-menu-color-places {
  background-color: #E0CB43;
 }
 
@@ -85,16 +85,16 @@
 }
 
 h1 {
-    font-family: "Cinzel", serif;
+    font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 42px;
     font-weight: 700;
     text-decoration: none;
-    color: #000000;;
+    color: #000000;
 }
 
 h2 {
-    font-family: "Cinzel", serif;
+    font-family: 'Cinzel', serif;
     text-align: center;
     font-size: 36px;
     font-weight: 300;
@@ -110,11 +110,11 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   height:100vh;
-  background-size: 100%;
+  /*background-size: 100%;*/
+  background-size: cover;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  margin-bottom: 10px;
 }
 
 .people {
@@ -167,7 +167,7 @@ h2 {
 
 .people-pics {
     color: #000000;
-    font-family: Roboto, sans-serif;
+    font-family: 'Merriweather', serif;
     vertical-align: text-bottom;
     padding-top: 230px;
     text-align: left;
@@ -254,7 +254,7 @@ h2 {
     padding-right: 10px;
     padding-bottom: 10px;
     color: #000000;
-    font-family: Roboto, sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 14px;
     text-decoration: none;
     font-weight: 400; 
@@ -265,13 +265,13 @@ h2 {
 
 .links-desc {
     color: #000000;
-    font-family: Roboto, sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 14px;
     text-decoration: none;
     font-weight: 400; 
     text-decoration: none;
     padding-left: none;
-    padding-right: 10px;
+    padding-right: 30px;
     text-align: left;
 }
 
@@ -405,27 +405,27 @@ h2 {
     min-width: 250px;
     min-height: 47px;
     object-fit: contain;
-    padding-top: 190px;
+    padding-top: 210px;
     padding-left: 0px;
 }
 
-.amazon {
-    background-image: url("images/amazon.jpg");
+.timeturner {
+    background-image: url("images/timeturner.jpg");
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
     object-fit: contain;
-    padding-top: 190px;
+    padding-top: 280px;
     padding-left: 0px;
 }
 
-.ebay {
-    background-image: url("images/ebay.jpg");
+.party {
+    background-image: url("images/party.jpg");
     background-repeat: no-repeat;
     min-width: 250px;
     min-height: 47px;
     object-fit: contain;
-    padding-top: 190px;
+    padding-top: 280px;
     padding-left: 0px;
 }
 /*--------------------------------------Text*/
@@ -443,7 +443,14 @@ h2 {
     text-decoration: none;
 }
 
+/* To align text margin with images, from W3 schools*/
+.links-desc {
+    margin-right: 60px;
+}
+
 /*--------------------------------------Footer with help from W3 schools*/
+
+
 
 body {
 padding-bottom: 120px; /* height of the footer from Stack Overflow to be able to scroll down site*/
@@ -485,8 +492,8 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     padding: 12px;
     border-radius: 50%;
     text-align: center;
