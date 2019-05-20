@@ -9,16 +9,8 @@
    font-weight: 400;
    padding-top: 5px;
    text-decoration: none;
-}
-
-.h4 {
-    text-decoration: none;
-    color: #fafafa;
-}
-   .h3 {
-    text-decoration: none;
-    color: #fafafa;
    vertical-align: bottom;
+   padding-bottom: 0;
 }
 
 .homepage-link-all-things-hp1 a {
@@ -28,26 +20,17 @@
    font-weight: 400;
    padding-top: 5px;
    text-decoration: none;
-   vertical-align: bottom;
+    color: #fafafa;
+    vertical-align: bottom;
+    padding-bottom: 0;
 }
 
-.homepage-link-all-things-hp1 a:hover {
-    color: rgba(0, 0, 0, 0.8);
+.h4 { 
     text-decoration: none;
-}
-
-
-
-.navbar-home {
     color: #fafafa;
-    width: 100%;
+    vertical-align: bottom;
+    padding-bottom: 0;
 }
-
-/*.navbar-links {
-    color: #fafafa;
-    width: 100%;
-    height: 50px;
-}*/
 
 .homepage-link-all-things-hp2 {
     color: #fafafa;
@@ -55,9 +38,10 @@
     text-align: left;
     font-weight: 300;
     text-decoration: none;
-    vertical-align: top;
+    vertical-align: bottom;
     padding-top: none;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    display: inline-block;
 }
 
 .homepage-link-all-things-hp2 a {
@@ -66,9 +50,9 @@
     text-align: left;
     font-weight: 300;
     text-decoration: none;
-    vertical-align: top;
+    vertical-align: bottom;
     padding-top: none;
-    padding-bottom: 30px;
+    padding-bottom: -5px;
 }
 
 .homepage-link-all-things-hp2 a:hover {
@@ -76,172 +60,50 @@
     text-decoration: none;
 }
 
-/*--------------------------------------Nav Bar*/
+/*--------------------------------------Navbar*/
 
-}
-/*from w3 site*/
 
-.nav-list-home {
-    display: block;
-}
 
-.nav-header-home {
-    color: #fafafa;
-    background-size: cover;
+.navbar {
+   color: #fafafa;
+   background-size: cover;
    background-color: #525252;
-   margin: 0;
+   margin-right: : 0;
+   margin-left: 0;
    padding: 0;
    width: 100%;
-   left: 0;
-   right: 0;
+   padding-left: 0;
+   padding-right: 0;
    text-decoration: none;
-   display: block;
-}
-
-.links-header {
-    color: #fafafa;
-    background-size: cover;
-    background-color: #B41B26; 
-    width: 100%;
-}
-
-.nav-header-links {
-    color: #fafafa;
-    background-size: cover;
-    background-color: #B41B26;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   left: 0;
    right: 0;
-   text-decoration: none;
-   display: block;
+   left: 0;
+   display: inline-block;
+   padding-bottom: 0;
+   vertical-align: bottom;
 }
 
-.nav-header-places {
-    color: #fafafa;
-    background-size: cover;
-    background-color: #0000CD;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   left: 0;
-   right: 0;
-   text-decoration: none;
-   display: block;
-}
-
-.nav-header-events {
-    color: #fafafa;
-    background-size: cover;
-    background-color: #FFCC00;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   left: 0;
-   right: 0;
-   text-decoration: none;
-   display: block;
-}
-
-.nav-header-shop {
-    color: #fafafa;
-    background-size: cover;
-    background-color: #1F6E2C;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   left: 0;
-   right: 0;
-   text-decoration: none;
-   display: block;
-}
-
-/*.nav-header {
-    color: #fafafa;
-    background-size: cover;
-   margin: 0;
-   padding: 0;
-   width: 100%;
-   left: 0;
-   right: 0;
+/*.navrow {
+    height: auto;
 }*/
 
-/*
-
-.ui-menu-color-home {
- background-color: #525252;
+.navitem {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-bottom: 0px;
 }
 
-.ui-menu-color-links {
- background-color: #B41B26;
-}
-
-.ui-menu-color-places {
- background-color: #0000CD;
-}
-
-.ui-menu-color-events {
- background-color: #E0CB43;
-}
-
-.ui-menu-color-shop {
- background-color: #1F6E2C;
-}
-*/
-
-.navitem-home {
+.navitem a {
    /* height: 80px;*/
     font-family: Roboto, sans-serif;
     text-align: center;
     text-decoration: none;
-    background-color: #525252;
-    display: inline;
-}
-
-.navitem-home a {
-   /* height: 80px;*/
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    background-color: #525252;
+    /*background-color: #525252;*/
     width: 100%;
-}
-
-.navitem-links {
-   /* height: 80px;*/
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    background-color: #B41B26;
-    width: 100%;
-}
-
-.navitem-places {
-   /* height: 80px;*/
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    background-color: #0000CD;
-    width: 100%;
-}
-
-.navitem-events {
-   /* height: 80px;*/
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    background-color: #FFCC00;
-    width: 100%;
-}
-
-.navitem-shop {
-   /* height: 80px;*/
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    background-color: #1F6E2C;
-    width: 100%;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+    vertical-align: bottom;
+    padding-bottom: -5px;
 }
 
 .navitem span {
@@ -254,145 +116,9 @@
     padding-top: 5px;
     font-weight: 400;
     vertical-align: bottom;
-}
-
-.navitem a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-    vertical-align: bottom;
-}
-
-.navitem-places span {
-    color: #fafafa;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 5px;
-    font-weight: 400;
-    vertical-align: bottom;
-}
-
-.navitem-home span {
-    color: #fafafa;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 5px;
-    font-weight: 400;
-    vertical-align: bottom;
-}
-
-.navitem-home a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-}
-
-.navitem-links span {
-    color: #fafafa;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 5px;
-    font-weight: 400;
-    vertical-align: bottom;
-}
-
-.navitem-links a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-}
-
-.navitem-places a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-}
-
-.navitem-events span {
-    color: #fafafa;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 5px;
-    font-weight: 400;
-    vertical-align: bottom;
-}
-
-.navitem-events a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-    padding-bottom: none;
-}
-
-.navitem-shop span {
-    color: #fafafa;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 5px;
-    font-weight: 400;
-    vertical-align: bottom;
-}
-
-.navitem-shop a {
-    text-decoration: none;
-    color: #fafafa;
-    text-align: right;
-}
-
-
-
-/*--------------------------------------Header*/
-
-/*.all-things {
-    min-height: 95px;
-}*/
- /* from css-tricks.com */
- 
-.homepage-link a {
-    text-decoration: none;
-    color: #fafafa;
-}
-
-.homepage-link a:hover {
-    color: #fafafa;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-h1 {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 42px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #fafafa;
-}
-
-h2 {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 300;
-    text-decoration: none;
-    color: #fafafa;
-    /*padding-bottom: 10px;*/
+    display: inline-block;
+    background-size: cover;
+    padding-bottom: -5px;
 }
 
 /*--------------------------------Homepage*/
@@ -410,13 +136,61 @@ h2 {
 }
 
 /* ----------------------------------------------Links page */
-
-.video {
+/*.links-video {
     margin: auto;
     text-align: center;
     height: 100% !important;
     padding-bottom: 50px;
     margin-top: 120px;
+}*/
+
+.navbar-links {
+   color: #fafafa;
+   background-size: cover;
+   background-color: #B41B26;
+   margin-right: : 0;
+   margin-left: 0;
+   padding: 0;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   text-decoration: none;
+   right: 0;
+   left: 0;
+   display: inline-block;
+   padding-bottom: 0;
+   vertical-align: bottom;
+}
+
+.body-bgcolor {
+    background-color: #F5F5F5;
+}
+
+.movie_pic13 { 
+  background-image: url("images/movie_pic13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  /*background-size: 100%;*/
+  background-size: cover;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.audio {
+    /*margin: auto;*/
+    text-align: left;
+    /*height: 100% !important;*/
+   /* height:100vh;
+    margin-top: -250px;
+    vertical-align: top;*/
+    background-size: contain;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    min-width: 270px;
+    min-height: 150px;
 }
 
 .pottermore {
@@ -541,6 +315,24 @@ h2 {
 
 /*------------------------------------Places Page*/
 
+.navbar-places {
+   color: #fafafa;
+   background-size: cover;
+   background-color: #0000CD;
+   margin-right: : 0;
+   margin-left: 0;
+   padding: 0;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   text-decoration: none;
+   right: 0;
+   left: 0;
+   display: inline-block;
+   padding-bottom: 0;
+   vertical-align: bottom;
+}
+
 .movie_pic14 { 
   background-image: url("images/movie_pic14.jpg");
   background-position: center;
@@ -551,27 +343,6 @@ h2 {
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-}
-
-.audio {
-    margin: auto;
-    text-align: center;
-    /*height: 100% !important;*/
-    height:100vh;
-    margin-top: -250px;
-    vertical-align: top;
-
-}
-
-.warnerbros {
-    background-image: url("images/warnerbros.jpg");
-    background-repeat: no-repeat;
-    min-width: 250px;
-    min-height: 47px;
-    display: inline;
-    object-fit: contain;
-    padding-top: 180px;
-    padding-left: 0px;
 }
 
 .orlando {
@@ -596,24 +367,24 @@ h2 {
     padding-left: 0px;
 }
 
-/*------------------------------------Events Page*/
+/* ----------------------------------------------Events page */
 
-.movie_pic { 
-  background-image: url("images/movie_pic3.jpg");
-  text-align: center;
-  background-repeat: no-repeat;
-  /*min-height: 188px;
-  min-width: 250px;*/
-  height: 80vh;
-  /*margin-left: 33%;*/
-  background-size: contain;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  padding-bottom: 0px;
-  margin-bottom: -120px;
-  padding-top: 50px;
-  margin-top: 130px;
+.navbar-events {
+   color: #fafafa;
+   background-size: cover;
+   background-color: #E0CB43;
+   margin-right: : 0;
+   margin-left: 0;
+   padding: 0;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   text-decoration: none;
+   right: 0;
+   left: 0;
+   display: inline-block;
+   padding-bottom: 0;
+   vertical-align: bottom;
 }
 
 .movie_pic9 { 
@@ -626,11 +397,7 @@ h2 {
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-}
-
-.events-links {
-    padding-top: 0px;
-    text-align: center;
+  margin-bottom: 10px;
 }
 
 .inconcert {
@@ -666,66 +433,36 @@ h2 {
     padding-left: 0px;
 }
 
-/*--------------------------------------Shop*/
+/* ----------------------------------------------Shop page */
 
-.people {
-    margin-top: 90px;
-    margin-top: 0;
-    padding-bottom: 120px;
-    text-align: center;
+.navbar-shop {
+   color: #fafafa;
+   background-size: cover;
+   background-color: #1F6E2C;
+   margin-right: : 0;
+   margin-left: 0;
+   padding: 0;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   text-decoration: none;
+   right: 0;
+   left: 0;
+   display: inline-block;
+   padding-bottom: 0;
+   vertical-align: bottom;
 }
 
-.harry_pic { 
- background-image: url("images/harry_pic.jpg");
+.movie_pic11 { 
+  background-image: url("images/movie_pic11.jpg");
+  background-position: center;
   background-repeat: no-repeat;
+  height:100vh;
+  /*background-size: 100%;*/
+  background-size: cover;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  height: 230px;
-  width: 175px;
-  margin-bottom: 10px;
-  display: inline;
-  object-fit: contain;
-  text-align: center;
-  margin-top: 110px;
-}
-
-.hermione_pic { 
-  background-image: url("images/hermione_pic.jpg");
-  background-repeat: no-repeat;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  height: 230px;
-  width: 175px;
-  margin-bottom: 10px;
-  display: inline;
-  object-fit: contain;
-  text-align: center;
-  margin-top: 110px;
-}
-
-.ron_pic { 
-  background-image: url("images/ron_pic.jpg");
-  background-repeat: no-repeat;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  min-height: 230px;
-  min-width: 175px;
-  margin-bottom: 10px;
-  display: inline;
-  object-fit: contain;
-  text-align: center;
-  margin-top: 110px;
-}
-
-.people-pics {
-    color: #000000;
-    font-family: 'Merriweather', serif;
-    vertical-align: text-bottom;
-    padding-top: 230px;
-    text-align: left;
 }
 
 .kingscross {
@@ -756,25 +493,6 @@ h2 {
     object-fit: contain;
     padding-top: 280px;
     padding-left: 0px;
-}
-/*--------------------------------------Text*/
-
-.links-text {
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    color: #000000;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 400; 
-    text-decoration: none;
-}
-
-/* To align text margin with images, from W3 schools*/
-.links-desc {
-    margin-right: 60px;
 }
 
 /*--------------------------------------Footer with help from W3 schools*/
@@ -853,3 +571,6 @@ footer {
 .list-inline-item i {
     text-decoration: none;
 }
+
+
+
