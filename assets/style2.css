@@ -6,23 +6,25 @@
    color: #fafafa; 
    font-family: Cinzel;
    text-align: left;
-   font-weight: 400;
+   font-weight: 500;
    padding-top: 5px;
    text-decoration: none;
    vertical-align: bottom;
    padding-bottom: 0;
+   padding-left: 5px;
 }
 
 .homepage-link-all-things-hp1 a {
    color: #fafafa; 
    font-family: Cinzel;
    text-align: left;
-   font-weight: 400;
+   font-weight: 500;
    padding-top: 5px;
    text-decoration: none;
     color: #fafafa;
     vertical-align: bottom;
     padding-bottom: 0;
+    padding-left: 5px;
 }
 
 .h4 { 
@@ -30,33 +32,42 @@
     color: #fafafa;
     vertical-align: bottom;
     padding-bottom: 0;
+    padding-left: 5px;
+}
+
+.homepage-link-all-things-hp1 a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 .homepage-link-all-things-hp2 {
     color: #fafafa;
     font-family: Cinzel;
     text-align: left;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
     vertical-align: bottom;
     padding-top: none;
     padding-bottom: 0px;
     display: inline-block;
+    padding-left: 5px;
 }
 
 .homepage-link-all-things-hp2 a {
+   color: #fafafa; 
+   font-family: Cinzel;
+   text-align: left;
+   font-weight: 500;
+   padding-top: 5px;
+   text-decoration: none;
     color: #fafafa;
-    font-family: Cinzel;
-    text-align: left;
-    font-weight: 300;
-    text-decoration: none;
     vertical-align: bottom;
-    padding-top: none;
-    padding-bottom: -5px;
+    padding-bottom: 0;
+    padding-left: 5px;
 }
 
 .homepage-link-all-things-hp2 a:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.4);
     text-decoration: none;
 }
 
@@ -114,11 +125,17 @@
     text-transform: uppercase;
     text-decoration: none;
     padding-top: 5px;
-    font-weight: 400;
+    font-weight: 500;
     vertical-align: bottom;
     display: inline-block;
     background-size: cover;
     padding-bottom: -5px;
+    padding-right: 5px;
+}
+
+.navitem span:hover {
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 /*--------------------------------Homepage*/
@@ -166,6 +183,10 @@
     background-color: #F5F5F5;
 }
 
+.bg-color {
+    background-color: #F5F5F5;
+}
+
 .movie_pic13 { 
   background-image: url("images/movie_pic13.jpg");
   background-position: center;
@@ -176,6 +197,19 @@
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.pottermore {
+    background-image: url("images/pottermore.jpg");
+    background-repeat: no-repeat;
+    min-width: 250px;
+    min-height: 131px;
+    display: inline;
+    object-fit: contain;
+    padding-top: 140px;
+    padding-left: 0px;
+
 }
 
 .audio {
@@ -191,28 +225,7 @@
     -webkit-transition: all .5s ease-in-out;
     min-width: 270px;
     min-height: 150px;
-}
-
-.pottermore {
-    background-image: url("images/pottermore.jpg");
-    background-repeat: no-repeat;
-    min-width: 250px;
-    min-height: 131px;
-    display: inline;
-    object-fit: contain;
-    padding-top: 140px;
-    padding-left: 0px;
-}
-
-.youtube-link {
-    background-image: url("images/youtube.png");
-    background-repeat: no-repeat;
-    min-width: 250px;
-    min-height: 47px;
-    display: inline;
-    object-fit: contain;
-    padding-top: 140px;
-    padding-left: 0px;
+   
 }
 
 .bloomsbury {
@@ -233,8 +246,9 @@
     min-height: 47px;
     display: inline;
     object-fit: contain;
-    padding-top: 120px;
+    padding-top: 80px;
     padding-left: 0px;
+    margin-top: 15px;
 }
 
 .mugglenet {
@@ -244,8 +258,9 @@
     min-height: 47px;
     display: inline;
     object-fit: contain;
-    padding-top: 140px;
+    padding-top: 80px;
     padding-left: 0px;
+    margin-top: 15px;
 }
 
 .lexicon {
@@ -255,8 +270,9 @@
     min-height: 47px;
     display: inline;
     object-fit: contain;
-    padding-top: 140px;
+    padding-top: 80px;
     padding-left: 0px;
+    margin-top: 15px;
 }
 
 .site-links {
@@ -274,7 +290,7 @@
 
 /* from W3schools.com */
 
-.links-desc {
+.links-desc  {
     color: #000000;
     font-family: 'Merriweather', serif;
     font-size: 14px;
@@ -282,7 +298,7 @@
     font-weight: 400; 
     text-decoration: none;
     padding-left: none;
-    padding-right: 30px;
+    padding-right: 70px;
     text-align: left;
 }
 
@@ -343,6 +359,7 @@
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 15px;
 }
 
 .orlando {
@@ -387,8 +404,8 @@
    vertical-align: bottom;
 }
 
-.movie_pic9 { 
-  background-image: url("images/movie_pic9.jpg");
+.movie_pic15 { 
+  background-image: url("images/movie_pic15.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height:100vh;
@@ -397,7 +414,7 @@
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .inconcert {
@@ -453,8 +470,8 @@
    vertical-align: bottom;
 }
 
-.movie_pic11 { 
-  background-image: url("images/movie_pic11.jpg");
+.movie_pic9 { 
+  background-image: url("images/movie_pic9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height:100vh;
@@ -463,6 +480,7 @@
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
+  margin-bottom: 15px;
 }
 
 .kingscross {
@@ -504,24 +522,28 @@ padding-bottom: 120px; /* height of the footer from Stack Overflow to be able to
 }
 
 footer {
-    /*position: fixed;*/
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin-bottom: none;
+    margin-bottom: -120px; /*from w3 schools to make margin stick to bottom of page*/
     padding-bottom: none;
-}
+}    
 
 .footer-text {
     padding-top: 10px;
     text-align: left;
 }
 
-.email {
+.email1 {
     padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.email2 {
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
